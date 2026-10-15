@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 昆蟲同樂會 互動攤位地圖</title>
+  <meta name="description" content="2026 昆蟲同樂會 Insect Party 互動攤位地圖：滑過攤位看名稱與品項，依甲蟲／爬蟲分類篩選，標示抽抽樂。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="title">
+      <p class="eyebrow">Insect Party · Booth Map</p>
+      <h1>2026 昆蟲同樂會</h1>
+    </div>
+    <div class="filters" role="group" aria-label="分類篩選">
+      <button class="chip active" data-filter="all">全部 <span class="count" data-count="all"></span></button>
+      <button class="chip beetle" data-filter="beetle">甲蟲 <span class="count" data-count="beetle"></span></button>
+      <button class="chip reptile" data-filter="reptile">爬蟲 <span class="count" data-count="reptile"></span></button>
+      <button class="chip other" data-filter="other">其他 <span class="count" data-count="other"></span></button>
+      <button class="chip lottery" data-filter="lottery">🎰 抽抽樂 <span class="count" data-count="lottery"></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="map-wrap" aria-label="攤位地圖">
+      <svg id="map" viewBox="30 315 990 650" role="img" aria-label="昆蟲同樂會攤位地圖"></svg>
+      <div id="tip" class="tip" hidden></div>
+      <p class="hint">滑鼠移到攤位上看名稱與品項，點一下看詳細資料。</p>
+    </section>
+
+    <aside id="panel" class="panel" aria-live="polite">
+      <div class="panel-empty">
+        <p class="panel-big">點選地圖上的攤位</p>
+        <p>或用下方清單搜尋</p>
+      </div>
+    </aside>
+
+    <section class="list-wrap">
+      <div class="list-head">
+        <h2>攤位清單</h2>
+        <input id="search" type="search" placeholder="搜尋攤位名稱或品項…" aria-label="搜尋攤位">
+      </div>
+      <ol id="list" class="list"></ol>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>品項為各攤位公開頁面的主要販售內容；標「依名稱推測」者尚未找到公開資料。抽抽樂資訊以攤位公告為準。</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
