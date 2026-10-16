@@ -125,12 +125,15 @@ function spPanel(b) {
 function detailPanel(b) {
   const d = b.detail; if (!d) return "";
   const e = escapeHtml;
-  const row = it => `<tr><td>${e(it.name)}</td><td>${e(it.size || it.qty || "—")}</td><td>${e(it.spec || "")}</td></tr>`;
-  const table = (t, items, h) => `<h5>${e(t)}</h5><table class="dtl"><thead><tr><th>物種</th><th>${h}</th><th>規格</th></tr></thead><tbody>${items.map(row).join("")}</tbody></table>`;
-  return `<h4>本次帶展完整清單</h4>` +
-    (d.info ? `<ul class="dinfo">${d.info.map(x => `<li>${e(x)}</li>`).join("")}</ul>` : "") +
+  const unc = s => e(s || "").replace(/\(\?\)/g, '<span class="unc" title="辨識不確定">(?)</span>');
+  const hasPrice = items => items.some(i => i.price);
+  const row = (it, p) => `<tr><td>${unc(it.name)}</td><td>${unc(it.size || it.qty || "—")}</td><td>${unc(it.spec)}</td>${p ? `<td>${unc(it.price)}</td>` : ""}</tr>`;
+  const table = (t, items, h, cols) => { const p = hasPrice(items); const c = cols || ["物種", h, "規格"]; return `<h5>${e(t)}</h5><table class="dtl"><thead><tr>${c.map(x => `<th>${e(x)}</th>`).join("")}${p ? "<th>價格</th>" : ""}</tr></thead><tbody>${items.map(i => row(i, p)).join("")}</tbody></table>`; };
+  return `<h4>${d.groups || d.tiers ? "本次帶展清單" : "本次活動資訊"}</h4>` +
+    (d.info ? `<ul class="dinfo">${d.info.map(x => `<li>${unc(x)}</li>`).join("")}</ul>` : "") +
+    (d.promos ? `<h5>優惠／活動</h5><ul class="dinfo">${d.promos.map(x => `<li>${unc(x)}</li>`).join("")}</ul>` : "") +
     (d.groups || []).map(g => table(g.category, g.items, g.items.some(i => i.qty) ? "數量" : "最大尺寸")).join("") +
-    (d.tiers || []).map(t => table(t.title, t.items, "最大尺寸")).join("") +
+    (d.tiers || []).map(t => table(t.title, t.items, "最大尺寸", t.cols)).join("") +
     (d.source ? `<p class="dsrc">來源：<a href="${e(d.source)}" target="_blank" rel="noopener">${e(d.sourceLabel || d.source)}</a></p>` : "");
 }
 function spText(b) {

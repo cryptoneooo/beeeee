@@ -773,7 +773,76 @@ window.BOOTHS = [
     ],
     "listFound": false,
     "source": "https://www.instagram.com/nashipiku/p/DeeKyIgAQee/",
-    "speciesSource": "event-mention"
+    "speciesSource": "event-mention",
+    "detail": {
+      "source": "https://www.instagram.com/nashipiku/p/DeeKyIgAQee/",
+      "sourceLabel": "IG @nashipiku 活動貼文（8張）",
+      "groups": [
+        {
+          "category": "周邊商品",
+          "items": [
+            {
+              "name": "蜘蛛行李吊帶",
+              "size": "5×180 cm",
+              "spec": "",
+              "price": "$180"
+            },
+            {
+              "name": "蜘蛛/雞母蟲警告牌造型夾",
+              "size": "6 cm",
+              "spec": "一款雙面圖 (?)",
+              "price": "$100"
+            },
+            {
+              "name": "蜘蛛壓克力串串",
+              "size": "6 cm",
+              "spec": "",
+              "price": "$150"
+            },
+            {
+              "name": "蜘蛛壓克力吊飾",
+              "size": "6 cm",
+              "spec": "款式：衰臉雞母蟲、珍蛛奶茶、串串復刻、藍寶石華麗雨林、墨西哥紅膝頭",
+              "price": "$120"
+            },
+            {
+              "name": "蜘蛛迷因貼紙",
+              "size": "",
+              "spec": "",
+              "price": ""
+            }
+          ]
+        },
+        {
+          "category": "活體（未標價）",
+          "items": [
+            {
+              "name": "蜘蛛寶寶 墨西哥火腳 (?)"
+            },
+            {
+              "name": "蜘蛛寶寶 巴西巨人金直間 (?)"
+            },
+            {
+              "name": "蜘蛛寶寶 尼加拉瓜卷毛"
+            },
+            {
+              "name": "印度華麗雨林 大幼",
+              "size": "",
+              "spec": "需詢問"
+            },
+            {
+              "name": "馬島蟑螂寶寶"
+            },
+            {
+              "name": "S 杜比亞"
+            },
+            {
+              "name": "SS 紅蟑 (?)"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "no": 9,
@@ -1115,7 +1184,14 @@ window.BOOTHS = [
       "飼育用品/耗材（未列品項）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/ironbeetle_forest/p/Dd-t6rSTjnX/"
+    "source": "https://www.instagram.com/ironbeetle_forest/p/Dd-t6rSTjnX/",
+    "detail": {
+      "source": "https://www.instagram.com/ironbeetle_forest/p/Dd-t6rSTjnX/",
+      "sourceLabel": "IG @ironbeetle_forest 活動海報（1張）",
+      "info": [
+        "海報僅寫：工作室甲蟲 活體成蟲、幼蟲、飼育用品；未列物種名"
+      ]
+    }
   },
   {
     "no": 17,
@@ -1188,7 +1264,33 @@ window.BOOTHS = [
       "昆蟲主題飾品（銀杏耳環NT780、銀杏項鍊NT880 等，昆蟲同樂會新品）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/rita_h926/p/DegEtc4IAv8/"
+    "source": "https://www.instagram.com/rita_h926/p/DegEtc4IAv8/",
+    "detail": {
+      "source": "https://www.instagram.com/rita_h926/p/DegEtc4IAv8/",
+      "sourceLabel": "IG @rita_h926 活動貼文（4張）",
+      "info": [
+        "飾品攤，非活體昆蟲"
+      ],
+      "groups": [
+        {
+          "category": "飾品",
+          "items": [
+            {
+              "name": "銀杏耳環",
+              "size": "",
+              "spec": "",
+              "price": "NT$780"
+            },
+            {
+              "name": "銀杏項鍊",
+              "size": "",
+              "spec": "",
+              "price": "NT$880"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "no": 19,
@@ -1542,7 +1644,15 @@ window.BOOTHS = [
       "藍閃蝶課程"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/splendor0/p/DeeKq0elDCv/"
+    "source": "https://www.instagram.com/splendor0/p/DeeKq0elDCv/",
+    "detail": {
+      "source": "https://www.instagram.com/splendor0/p/DeeKq0elDCv/",
+      "sourceLabel": "IG @splendor0 展覽資訊（2張）",
+      "info": [
+        "貼文無品項清單；提供 8 張入場證（留言/私訊領取，非抽獎）",
+        "⚠ 貼文寫「位置：52號 多功能展廳A7W」，但官方對照表 52 號為「星光」、本站依官方表列在 25 號，請以現場為準"
+      ]
+    }
   },
   {
     "no": 26,
@@ -1739,7 +1849,18 @@ window.BOOTHS = [
       "各式乾貨/飼育品（乾貨滿$500贈$100）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/lucanus11/p/DegdV-6zbmF/"
+    "source": "https://www.instagram.com/lucanus11/p/DegdV-6zbmF/",
+    "detail": {
+      "source": "https://www.instagram.com/lucanus11/p/DegdV-6zbmF/",
+      "sourceLabel": "IG @lucanus11 活動貼文（1張）",
+      "info": [
+        "精選活體、各式乾貨（未列物種名）"
+      ],
+      "promos": [
+        "鍬集木屑 NT$1,900/箱（含運），送頂級好血台深幼蟲 5 隻",
+        "乾貨滿 $500 回饋 $100"
+      ]
+    }
   },
   {
     "no": 31,
@@ -1943,7 +2064,225 @@ window.BOOTHS = [
       "甲蟲飼育耗材（野育系列木屑等）"
     ],
     "listFound": true,
-    "note": "C 賞標題寫 65 組，但圖中列出 12 項合計僅 57 組，可能有漏列或讀圖誤差；品種名依圖片小字抄錄，請以現場為準。"
+    "note": "C 賞標題寫 65 組，但圖中列出 12 項合計僅 57 組，可能有漏列或讀圖誤差；品種名依圖片小字抄錄，請以現場為準。",
+    "detail": {
+      "source": "https://www.instagram.com/wildman_beetlesstudio/p/DehLAeemXX1/",
+      "sourceLabel": "IG @wildman_beetlesstudio 甲蟲幼蟲扭蛋全獎項清單",
+      "info": [
+        "甲蟲幼蟲扭蛋 160 組，每抽都有獎（品系／血統・每組隻數・組數）",
+        "成蟲照片僅供參考，以上獎品皆為幼蟲；75mm 為血統來源尺寸"
+      ],
+      "promos": [
+        "單抽 $250；5 抽起 $200/抽；10 抽送 1（依瀏覽器讀取 caption）"
+      ],
+      "tiers": [
+        {
+          "title": "EX賞｜4組",
+          "cols": [
+            "物種／品系",
+            "每組",
+            "組數"
+          ],
+          "items": [
+            {
+              "name": "蒙奇龍細身 Mapia CB",
+              "qty": "1隻/組",
+              "spec": "4組"
+            }
+          ]
+        },
+        {
+          "title": "A賞｜35組",
+          "cols": [
+            "物種／品系",
+            "每組",
+            "組數"
+          ],
+          "items": [
+            {
+              "name": "印度大叉角 CBF3",
+              "qty": "1隻/組",
+              "spec": "7組"
+            },
+            {
+              "name": "保齡氏叉角 APLS CBF1",
+              "qty": "1隻/組",
+              "spec": "8組"
+            },
+            {
+              "name": "帝王細身 WF4",
+              "qty": "2隻/組",
+              "spec": "5組"
+            },
+            {
+              "name": "周氏細身 75mm血同腹 CBF2",
+              "qty": "1隻/組",
+              "spec": "8組"
+            },
+            {
+              "name": "塔蘭度斯細身 WF1",
+              "qty": "2隻/組",
+              "spec": "2組"
+            },
+            {
+              "name": "佩洛蒂偽鹿角 WF1",
+              "qty": "1隻/組",
+              "spec": "5組"
+            }
+          ]
+        },
+        {
+          "title": "B賞｜38組",
+          "cols": [
+            "物種／品系",
+            "每組",
+            "組數"
+          ],
+          "items": [
+            {
+              "name": "紅蓮叉角 CBF1",
+              "qty": "1隻/組",
+              "spec": "8組"
+            },
+            {
+              "name": "緬甸大叉角 CBF1",
+              "qty": "1隻/組",
+              "spec": "6組"
+            },
+            {
+              "name": "考皮細身 CBF1",
+              "qty": "3隻/組",
+              "spec": "5組"
+            },
+            {
+              "name": "廩麻鬼艷 C亞種 WF1 (?)",
+              "qty": "2隻/組",
+              "spec": "5組"
+            },
+            {
+              "name": "長頸鹿大兜 Bull血統 角根17.8mm代",
+              "qty": "1隻/組",
+              "spec": "8組"
+            },
+            {
+              "name": "瑪格麗特小兜 CBF1",
+              "qty": "2隻/組",
+              "spec": "3組"
+            },
+            {
+              "name": "LV小兜 CBF2",
+              "qty": "2隻/組",
+              "spec": "3組"
+            }
+          ]
+        },
+        {
+          "title": "C賞｜65組",
+          "cols": [
+            "物種／品系",
+            "每組",
+            "組數"
+          ],
+          "items": [
+            {
+              "name": "明寧瑞奇叉角 CBF2",
+              "qty": "2隻/組",
+              "spec": "5組"
+            },
+            {
+              "name": "犀牛叉角 C亞種 WF1",
+              "qty": "1隻/組",
+              "spec": "8組"
+            },
+            {
+              "name": "小帝王細身 CBF2",
+              "qty": "2隻/組",
+              "spec": "2組"
+            },
+            {
+              "name": "長頸鹿細身 CBF2",
+              "qty": "3隻/組",
+              "spec": "3組"
+            },
+            {
+              "name": "M島大頭細身 CBF3",
+              "qty": "2隻/組",
+              "spec": "3組"
+            },
+            {
+              "name": "Dorcus axisopsis WF2",
+              "qty": "1隻/組",
+              "spec": "8組"
+            },
+            {
+              "name": "斑馬鬼 爪哇 WF1",
+              "qty": "2隻/組",
+              "spec": "5組"
+            },
+            {
+              "name": "拉法鐵鍬 CBF2",
+              "qty": "3隻/組",
+              "spec": "6組"
+            },
+            {
+              "name": "蘇門蓋鍬 WF1 (?)",
+              "qty": "2隻/組",
+              "spec": "3組"
+            },
+            {
+              "name": "黃金鬼 CBF2 (?)",
+              "qty": "2隻/組",
+              "spec": "4組"
+            },
+            {
+              "name": "羅馬戰士 WF4 (?)",
+              "qty": "3隻/組",
+              "spec": "5組"
+            },
+            {
+              "name": "海神大兜 131×68 CBF1",
+              "qty": "1隻/組",
+              "spec": "5組"
+            }
+          ]
+        },
+        {
+          "title": "D賞｜18組",
+          "cols": [
+            "物種／品系",
+            "每組",
+            "組數"
+          ],
+          "items": [
+            {
+              "name": "美他力佛細身 CBF2",
+              "qty": "3隻/組",
+              "spec": "4組"
+            },
+            {
+              "name": "彩虹鍬型蟲 鏡面藍紫",
+              "qty": "3隻/組",
+              "spec": "3組"
+            },
+            {
+              "name": "彩虹鍬型蟲 紅皮卡",
+              "qty": "3隻/組",
+              "spec": "3組"
+            },
+            {
+              "name": "彩虹鍬型蟲 特選綠皮卡",
+              "qty": "3隻/組",
+              "spec": "3組"
+            },
+            {
+              "name": "亞克提恩大兜 (?)",
+              "qty": "3隻/組",
+              "spec": "5組"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "no": 33,
@@ -1977,7 +2316,17 @@ window.BOOTHS = [
       "昆蟲飼育用品・耗材"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/senyu_beetles/p/DeOkhZRz_wU/"
+    "source": "https://www.instagram.com/senyu_beetles/p/DeOkhZRz_wU/",
+    "detail": {
+      "source": "https://www.instagram.com/senyu_beetles/p/DeOkhZRz_wU/",
+      "sourceLabel": "IG @senyu_beetles 貼文",
+      "info": [
+        "抽獎：頭獎 極大血統亞齊巨鍬 (?)；四等獎 隨機成蟲 (?)"
+      ],
+      "promos": [
+        "門市全店優惠 10/8–10/31（非活動專屬，現場是否適用未確認）：活體 8 折、耗材 9 折"
+      ]
+    }
   },
   {
     "no": 34,
@@ -2140,7 +2489,9 @@ window.BOOTHS = [
       "爬蟲保健諮詢/週邊設備/客製加熱墊"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/momo_reptiles/p/DeS8vg_TyNR/"
+    "source": "https://www.instagram.com/momo_reptiles/p/DeS8vg_TyNR/",
+    "notes": [],
+    "excludedSource": "IG DeS8vg_TyNR 為台南「爬玩府城」活動，不採用"
   },
   {
     "no": 37,
@@ -2455,7 +2806,44 @@ window.BOOTHS = [
       "現場展示與販售"
     ],
     "listFound": true,
-    "source": "https://www.instagram.com/wufu_isopods/p/DecMXE3zMIv/"
+    "source": "https://www.instagram.com/wufu_isopods/p/DecMXE3zMIv/",
+    "detail": {
+      "source": "https://www.instagram.com/wufu_isopods/p/DecMXE3zMIv/",
+      "sourceLabel": "IG @wufu_isopods 活動貼文",
+      "groups": [
+        {
+          "category": "鼠婦",
+          "items": [
+            {
+              "name": "新血・古巴刺",
+              "size": "",
+              "spec": "10 隻",
+              "price": "$8,000"
+            },
+            {
+              "name": "各式特色鼠婦"
+            }
+          ]
+        },
+        {
+          "category": "用品",
+          "items": [
+            {
+              "name": "食盆"
+            },
+            {
+              "name": "飼養盒"
+            },
+            {
+              "name": "飼養土"
+            }
+          ]
+        }
+      ],
+      "promos": [
+        "消費滿 $500 可轉轉盤"
+      ]
+    }
   },
   {
     "no": 44,
