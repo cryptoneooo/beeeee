@@ -99,17 +99,26 @@ function drawBooths() {
   }
 }
 
+function spHeading(b) {
+  if (b.listFound) return "現場蟲種";
+  if (b.speciesSource === "event-mention") return "本次活動貼文提到的蟲種（非完整清單）";
+  return "近期販售蟲種（非本次帶展清單）";
+}
+function spTipPrefix(b) {
+  if (b.listFound) return "";
+  return b.speciesSource === "event-mention" ? "活動貼文：" : "近期：";
+}
 function spTip(b) {
   const sp = b.species || [];
   if (!sp.length) return "";
   const names = sp.slice(0, 3).map(x => escapeHtml(x.name)).join("、");
-  return `<div class="sp-tip">🪲 ${b.listFound ? "" : "近期："}${names}${sp.length > 3 ? ` 等 ${sp.length} 種` : ""}</div>`;
+  return `<div class="sp-tip">🪲 ${spTipPrefix(b)}${names}${sp.length > 3 ? ` 等 ${sp.length} 種` : ""}</div>`;
 }
 function spPanel(b) {
   const sp = b.species || [];
   if (!sp.length) return "";
-  return `<h4>${b.listFound ? "現場蟲種" : "近期販售蟲種（非本次帶展清單）"}（${sp.length}）</h4><ul class="species">${sp.map(x => {
-    const meta = [x.stage, x.size, x.price].filter(Boolean).map(escapeHtml).join("・");
+  return `<h4>${spHeading(b)}（${sp.length}）</h4><ul class="species">${sp.map(x => {
+    const meta = [x.stage, x.size, x.price, x.note].filter(Boolean).map(escapeHtml).join("・");
     return `<li><span class="sp-name">${escapeHtml(x.name)}</span>${x.sci ? ` <i class="sci">${escapeHtml(x.sci)}</i>` : ""}${meta ? `<div class="sp-meta">${meta}</div>` : ""}</li>`;
   }).join("")}</ul>`;
 }
