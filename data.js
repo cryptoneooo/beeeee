@@ -39,7 +39,12 @@ window.BOOTHS = [
     ],
     "verified": true,
     "species": [],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 2,
@@ -326,6 +331,41 @@ window.BOOTHS = [
         "獎品依現場獎品池物種自行選擇；尺寸為該物種本次最大尺寸，實際依個體規格與獎池區分"
       ],
       "tiers": [
+        {
+          "title": "抽抽樂獎項結構（共 150 抽）",
+          "cols": [
+            "獎項",
+            "市價",
+            "數量"
+          ],
+          "items": [
+            {
+              "name": "A獎",
+              "qty": "$5,000 以上",
+              "spec": "1 抽"
+            },
+            {
+              "name": "B獎",
+              "qty": "$2,500 以上",
+              "spec": "2 抽"
+            },
+            {
+              "name": "C獎",
+              "qty": "$1,000 以上",
+              "spec": "15 抽"
+            },
+            {
+              "name": "D獎",
+              "qty": "$500 以上",
+              "spec": "50 抽"
+            },
+            {
+              "name": "E獎",
+              "qty": "$500 以下",
+              "spec": "82 抽"
+            }
+          ]
+        },
         {
           "title": "A獎 可選獎品清單（市價 $5,000 以上）",
           "items": [
@@ -625,6 +665,10 @@ window.BOOTHS = [
             }
           ]
         }
+      ],
+      "promos": [
+        "三張同級獎券可升一級",
+        "每張獎券送 $350 飼育耗材抵用"
       ]
     },
     "speciesSource": "event-list"
@@ -658,7 +702,14 @@ window.BOOTHS = [
       "甲蟲標本代工（簡介）"
     ],
     "listFound": false,
-    "source": "https://www.facebook.com/people/%E5%A4%AA%E5%BC%B7%E4%BA%86%E8%9F%B2%E7%A4%BE-Too-Strong-Beetle-Association/61568625862292/"
+    "source": "https://www.facebook.com/people/%E5%A4%AA%E5%BC%B7%E4%BA%86%E8%9F%B2%E7%A4%BE-Too-Strong-Beetle-Association/61568625862292/",
+    "detail": {
+      "info": [
+        "已確認參展，貼文未列品項（FB 公告：本週六日因參加松菸昆蟲展公休）"
+      ],
+      "source": "https://www.facebook.com/insectfairtw/posts/pfbid02tjgRrpk922gYxmsXdSJQ1Ta5sF514U4KBb5qQvERSseX7s4vQejf9Vuo9FF7H3yl",
+      "sourceLabel": "主辦單位活動貼文（太強了蟲社分享）"
+    }
   },
   {
     "no": 5,
@@ -681,7 +732,12 @@ window.BOOTHS = [
       "手作爬蟲娃娃（巨人守宮、紫色小丑蛙等，布偶非活體）",
       "牽繩/手作周邊"
     ],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 6,
@@ -740,7 +796,12 @@ window.BOOTHS = [
     "verified": true,
     "note": "Threads 上有菲律賓奇異蜈蚣（Scolopendra paradoxa）等貼文",
     "species": [],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 8,
@@ -877,7 +938,12 @@ window.BOOTHS = [
       "鬆獅蜥/小丑蛙等手作娃",
       "銀飾金工小品"
     ],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 10,
@@ -935,7 +1001,12 @@ window.BOOTHS = [
     "otherItems": [
       "溫控出租（板橋店/新生北路/淡水24hr溫控）"
     ],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 11,
@@ -958,7 +1029,12 @@ window.BOOTHS = [
       "KB專業果凍（新增銷售產品，甲蟲飼育果凍）",
       "日本甲蟲飼育用品（SEALACASE 經銷）"
     ],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 12,
@@ -1035,7 +1111,7 @@ window.BOOTHS = [
     "source": "https://www.instagram.com/beetle0321/p/Ctcz_WWyG1v/",
     "detail": {
       "info": [
-        "IG 未找到 2026 本次活動貼文"
+        "未找到本次活動貼文"
       ],
       "noEventPost": true
     }
@@ -1081,7 +1157,12 @@ window.BOOTHS = [
       "蝦皮/露天/Ruten 商店商品（ruten weioak0602）"
     ],
     "listFound": false,
-    "source": "https://www.facebook.com/profile.php?id=100083281663636"
+    "source": "https://www.facebook.com/profile.php?id=100083281663636",
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 14,
@@ -1130,7 +1211,7 @@ window.BOOTHS = [
     "source": "https://www.instagram.com/gua_isopods/p/DToYRcLEhkq/",
     "detail": {
       "info": [
-        "IG 未找到 2026 本次活動貼文"
+        "未找到本次活動貼文"
       ],
       "noEventPost": true
     }
@@ -1418,7 +1499,7 @@ window.BOOTHS = [
     "source": "https://www.instagram.com/beetle69.69/p/DVY0k_lj_j3/",
     "detail": {
       "info": [
-        "IG 未找到 2026 本次活動貼文"
+        "未找到本次活動貼文"
       ],
       "noEventPost": true
     }
@@ -1501,7 +1582,7 @@ window.BOOTHS = [
     "source": "https://www.instagram.com/alex.fossils/p/DXVU3TJE_wt/",
     "detail": {
       "info": [
-        "IG 未找到 2026 本次活動貼文"
+        "未找到本次活動貼文"
       ],
       "noEventPost": true
     }
@@ -1584,7 +1665,7 @@ window.BOOTHS = [
     "source": "https://www.instagram.com/abitbutter/p/DQdqq5Zksfz/",
     "detail": {
       "info": [
-        "IG 未找到 2026 本次活動貼文"
+        "未找到本次活動貼文"
       ],
       "noEventPost": true
     }
@@ -1681,7 +1762,7 @@ window.BOOTHS = [
     "source": "https://www.instagram.com/beetle_1one/p/DSohhWnkhaP/",
     "detail": {
       "info": [
-        "IG 未找到 2026 本次活動貼文"
+        "未找到本次活動貼文"
       ],
       "noEventPost": true
     }
@@ -1791,7 +1872,7 @@ window.BOOTHS = [
     "source": "https://www.instagram.com/beetle_discovery/p/DUxq_5rD6nO/",
     "detail": {
       "info": [
-        "IG 未找到 2026 本次活動貼文"
+        "未找到本次活動貼文"
       ],
       "noEventPost": true
     }
@@ -2056,7 +2137,12 @@ window.BOOTHS = [
     ],
     "verified": false,
     "species": [],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 32,
@@ -2540,7 +2626,12 @@ window.BOOTHS = [
       "南洋發酵木屑",
       "丸熟大兜土（飼育耗材）"
     ],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 35,
@@ -2626,7 +2717,7 @@ window.BOOTHS = [
     "source": "https://www.instagram.com/sunmoonbeetle/p/DdJxQY5FMwf/",
     "detail": {
       "info": [
-        "IG 未找到 2026 本次活動貼文"
+        "未找到本次活動貼文"
       ],
       "noEventPost": true
     }
@@ -2988,7 +3079,12 @@ window.BOOTHS = [
       "標本製作",
       "宅配到府（貨到付款）"
     ],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 42,
@@ -3209,7 +3305,13 @@ window.BOOTHS = [
       "Coolinsects 代理商品（標本，eBay 代購，1美金:28台幣）",
       "世界鍬形蟲圖鑑（200美金訂單示例）"
     ],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "未找到本次活動貼文",
+        "⚠ 主辦 10/02 對照表 45 號為「虫居」；本站名稱沿用另一版對照表「coolinsects」，請以現場為準"
+      ]
+    }
   },
   {
     "no": 46,
@@ -3369,7 +3471,14 @@ window.BOOTHS = [
       "昆蟲工作坊（有昆蟲、有花草）",
       "昆蟲聊天/看蟲互動（攤位宣傳）"
     ],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "已確認參展，貼文未列品項（「這週六、日歡迎來找我們聊天看蟲~」）"
+      ],
+      "source": "https://www.facebook.com/share/p/1KjPkK1KoR/",
+      "sourceLabel": "FB 艸虫工房 分享貼文"
+    }
   },
   {
     "no": 49,
@@ -3400,7 +3509,12 @@ window.BOOTHS = [
       "昆蟲飼養個體（鍬形蟲類）"
     ],
     "listFound": false,
-    "speciesSource": "event-mention"
+    "speciesSource": "event-mention",
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 50,
@@ -3543,7 +3657,12 @@ window.BOOTHS = [
       "黏蟲紙",
       "乾燥植物（羊蹄甲等）"
     ],
-    "listFound": false
+    "listFound": false,
+    "detail": {
+      "info": [
+        "未找到本次活動貼文"
+      ]
+    }
   },
   {
     "no": 52,
@@ -3681,7 +3800,7 @@ window.BOOTHS = [
     "source": "https://www.instagram.com/kh1_beetles/p/DU8Yk9YiaTu/",
     "detail": {
       "info": [
-        "IG 未找到 2026 本次活動貼文"
+        "未找到本次活動貼文"
       ],
       "noEventPost": true
     }
@@ -3764,7 +3883,7 @@ window.BOOTHS = [
     "source": "https://www.instagram.com/m2005ifuture/p/DaUgZgtkWM-/",
     "detail": {
       "info": [
-        "IG 未找到 2026 本次活動貼文"
+        "未找到本次活動貼文"
       ],
       "noEventPost": true
     }
