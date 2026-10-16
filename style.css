@@ -181,3 +181,9 @@ main {
   .top { align-items: flex-start; }
 }
 .tag.event-post{background:#e8f4ff;color:#1565c0}
+
+.tip .sp-tip { margin-top: 6px; font-size: 13px; }
+.panel ul.species li { margin-bottom: 6px; }
+.panel .sp-name { font-weight: 700; }
+.panel .sci { color: var(--muted); font-size: 13px; }
+.panel .sp-meta { font-size: 13px; color: var(--muted); }

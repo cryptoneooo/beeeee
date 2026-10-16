@@ -99,13 +99,31 @@ function drawBooths() {
   }
 }
 
+function spTip(b) {
+  const sp = b.species || [];
+  if (!sp.length) return "";
+  const names = sp.slice(0, 3).map(x => escapeHtml(x.name)).join("、");
+  return `<div class="sp-tip">🪲 ${names}${sp.length > 3 ? ` 等 ${sp.length} 種` : ""}</div>`;
+}
+function spPanel(b) {
+  const sp = b.species || [];
+  if (!sp.length) return "";
+  return `<h4>現場蟲種（${sp.length}）</h4><ul class="species">${sp.map(x => {
+    const meta = [x.stage, x.size, x.price].filter(Boolean).map(escapeHtml).join("・");
+    return `<li><span class="sp-name">${escapeHtml(x.name)}</span>${x.sci ? ` <i class="sci">${escapeHtml(x.sci)}</i>` : ""}${meta ? `<div class="sp-meta">${meta}</div>` : ""}</li>`;
+  }).join("")}</ul>`;
+}
+function spText(b) {
+  return (b.species || []).map(x => `${x.name} ${x.sci || ""}`).join(" ");
+}
+
 // ── 提示框 ────────────────────────────────────
 function showTip(b, e) {
   const lottery = b.lottery === true ? `<div>🎰 有抽抽樂</div>` : "";
   tip.innerHTML =
     `<strong><span class="no">${b.no}</span>${escapeHtml(b.name)}</strong>` +
     `<div>${cats(b).map(c => CAT_LABEL[c]).join("・")}</div>` +
-    `<ul>${b.items.map(i => `<li>${escapeHtml(i)}</li>`).join("")}</ul>` + lottery;
+    `<ul>${b.items.map(i => `<li>${escapeHtml(i)}</li>`).join("")}</ul>` + spTip(b) + lottery;
   tip.hidden = false;
   moveTip(e);
 }
@@ -138,6 +156,8 @@ function renderPanel(b) {
     <div class="tags">${tags.join("")}</div>
     <h4>參展品項</h4>
     <ul>${b.items.map(i => `<li>${escapeHtml(i)}</li>`).join("")}</ul>
+    ${spPanel(b)}
+    ${b.otherItems && b.otherItems.length ? `<h4>其他品項</h4><ul>${b.otherItems.map(i => `<li>${escapeHtml(i)}</li>`).join("")}</ul>` : ""}
     ${b.lotteryNote ? `<h4>抽抽樂</h4><p class="note">${escapeHtml(b.lotteryNote)}</p>` : ""}
     ${b.note ? `<h4>備註</h4><p class="note">${escapeHtml(b.note)}</p>` : ""}
     ${links ? `<h4>連結</h4><div class="links">${links}</div>` : ""}
@@ -176,7 +196,7 @@ function matches(b) {
     filter === "all" ? true :
     filter === "lottery" ? b.lottery === true :
     cats(b).includes(filter);
-  const passSearch = !q || `${b.no} ${b.name} ${b.items.join(" ")} ${b.note || ""}`.toLowerCase().includes(q);
+  const passSearch = !q || `${b.no} ${b.name} ${b.items.join(" ")} ${spText(b)} ${b.note || ""}`.toLowerCase().includes(q);
   return passFilter && passSearch;
 }
 
