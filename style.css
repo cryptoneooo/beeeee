@@ -187,3 +187,8 @@ main {
 .panel .sp-name { font-weight: 700; }
 .panel .sci { color: var(--muted); font-size: 13px; }
 .panel .sp-meta { font-size: 13px; color: var(--muted); }
+table.dtl{width:100%;border-collapse:collapse;font-size:12px;margin:4px 0 10px}
+table.dtl th,table.dtl td{border-bottom:1px solid #ddd;padding:3px 4px;text-align:left}
+table.dtl th{background:#f3efe4}
+.dinfo{font-size:12px;padding-left:18px}.dsrc{font-size:12px}
+h5{margin:8px 0 2px}

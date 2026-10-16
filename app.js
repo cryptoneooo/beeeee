@@ -122,6 +122,17 @@ function spPanel(b) {
     return `<li><span class="sp-name">${escapeHtml(x.name)}</span>${x.sci ? ` <i class="sci">${escapeHtml(x.sci)}</i>` : ""}${meta ? `<div class="sp-meta">${meta}</div>` : ""}</li>`;
   }).join("")}</ul>`;
 }
+function detailPanel(b) {
+  const d = b.detail; if (!d) return "";
+  const e = escapeHtml;
+  const row = it => `<tr><td>${e(it.name)}</td><td>${e(it.size || it.qty || "—")}</td><td>${e(it.spec || "")}</td></tr>`;
+  const table = (t, items, h) => `<h5>${e(t)}</h5><table class="dtl"><thead><tr><th>物種</th><th>${h}</th><th>規格</th></tr></thead><tbody>${items.map(row).join("")}</tbody></table>`;
+  return `<h4>本次帶展完整清單</h4>` +
+    (d.info ? `<ul class="dinfo">${d.info.map(x => `<li>${e(x)}</li>`).join("")}</ul>` : "") +
+    (d.groups || []).map(g => table(g.category, g.items, g.items.some(i => i.qty) ? "數量" : "最大尺寸")).join("") +
+    (d.tiers || []).map(t => table(t.title, t.items, "最大尺寸")).join("") +
+    (d.source ? `<p class="dsrc">來源：<a href="${e(d.source)}" target="_blank" rel="noopener">${e(d.sourceLabel || d.source)}</a></p>` : "");
+}
 function spText(b) {
   return (b.species || []).map(x => `${x.name} ${x.sci || ""}`).join(" ");
 }
@@ -165,7 +176,7 @@ function renderPanel(b) {
     <div class="tags">${tags.join("")}</div>
     <h4>參展品項</h4>
     <ul>${b.items.map(i => `<li>${escapeHtml(i)}</li>`).join("")}</ul>
-    ${spPanel(b)}
+    ${b.detail ? detailPanel(b) : spPanel(b)}
     ${b.otherItems && b.otherItems.length ? `<h4>其他品項</h4><ul>${b.otherItems.map(i => `<li>${escapeHtml(i)}</li>`).join("")}</ul>` : ""}
     ${b.lotteryNote ? `<h4>抽抽樂</h4><p class="note">${escapeHtml(b.lotteryNote)}</p>` : ""}
     ${b.note ? `<h4>備註</h4><p class="note">${escapeHtml(b.note)}</p>` : ""}
