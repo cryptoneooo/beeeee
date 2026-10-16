@@ -1915,8 +1915,7 @@ window.BOOTHS = [
       "source": "https://www.facebook.com/IPA168/posts/pfbid0qZHqup4RmA1321C1sAWsguawYtBMQuKe7W56KrsSGF5T9y67NMCkizHWNr5c7ADEl",
       "sourceLabel": "FB 蟲植寓所 活動貼文（含標本圖）",
       "info": [
-        "貼文寫 29 號位（主辦調整）",
-        "⚠ 攤位編號有兩版官方對照表：舊版 29 莫莫爬寵／36 Ookuwa Taiwan／38 蟲植寓所；更新版（蟲植寓所貼文標示主辦調整）29 蟲植寓所／36 莫莫爬寵／38 Ookuwa Taiwan。本站採更新版，但 Ookuwa 10/13 貼文地圖寫「第36、37桌」，請以現場為準"
+        "配合主辦單位調整至 29 號"
       ],
       "groups": [
         {
@@ -2680,7 +2679,6 @@ window.BOOTHS = [
     "detail": {
       "sourceLabel": null,
       "info": [
-        "⚠ 攤位編號有兩版官方對照表：舊版 29 莫莫爬寵／36 Ookuwa Taiwan／38 蟲植寓所；更新版（蟲植寓所貼文標示主辦調整）29 蟲植寓所／36 莫莫爬寵／38 Ookuwa Taiwan。本站採更新版，但 Ookuwa 10/13 貼文地圖寫「第36、37桌」，請以現場為準",
         "IG @momo_reptiles DeS8vg_TyNR 為台南「爬玩府城」活動，不採用"
       ]
     }
@@ -2790,8 +2788,8 @@ window.BOOTHS = [
       "source": "https://www.facebook.com/ookuwataiwan/",
       "sourceLabel": "FB Ookuwa Taiwan 10/13 活動貼文（無固定連結）",
       "info": [
-        "⚠ 攤位編號有兩版官方對照表：舊版 29 莫莫爬寵／36 Ookuwa Taiwan／38 蟲植寓所；更新版（蟲植寓所貼文標示主辦調整）29 蟲植寓所／36 莫莫爬寵／38 Ookuwa Taiwan。本站採更新版，但 Ookuwa 10/13 貼文地圖寫「第36、37桌」，請以現場為準",
-        "與 AMID Dorcus 同區（地圖標第36、37桌）"
+        "與 AMID Dorcus 同區（地圖標第36、37桌）",
+        "Ookuwa 先前自家地圖標「第36、37桌」，以現場為準"
       ],
       "groups": [
         {
