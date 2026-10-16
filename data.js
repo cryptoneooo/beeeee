@@ -2788,7 +2788,6 @@ window.BOOTHS = [
       "source": "https://www.facebook.com/ookuwataiwan/",
       "sourceLabel": "FB Ookuwa Taiwan 10/13 活動貼文（無固定連結）",
       "info": [
-        "與 AMID Dorcus 同區（地圖標第36、37桌）",
         "Ookuwa 先前自家地圖標「第36、37桌」，以現場為準"
       ],
       "groups": [
