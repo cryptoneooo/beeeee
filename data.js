@@ -74,7 +74,17 @@ window.BOOTHS = [
       "無敵風火輪 抽抽樂（$1,500/抽，獎品全部為成對成蟲，品種未在圖片列出）"
     ],
     "listFound": false,
-    "source": "https://www.facebook.com/insectjungle/posts/pfbid0CnrVqHTxaTZnToaC751L6E8mEjP1PyX7GCWjNd2RJ57KfvDRsDjEnWrpa6qbHmmvl"
+    "source": "https://www.facebook.com/insectjungle/posts/pfbid0CnrVqHTxaTZnToaC751L6E8mEjP1PyX7GCWjNd2RJ57KfvDRsDjEnWrpa6qbHmmvl",
+    "detail": {
+      "source": "https://www.facebook.com/insectjungle/posts/pfbid0CnrVqHTxaTZnToaC751L6E8mEjP1PyX7GCWjNd2RJ57KfvDRsDjEnWrpa6qbHmmvl",
+      "sourceLabel": "FB 蟲林野售 活動貼文",
+      "info": [
+        "獎品全部為成對成蟲；金獎未列物種"
+      ],
+      "promos": [
+        "無敵風火輪抽抽樂 $1,500/抽"
+      ]
+    }
   },
   {
     "no": 3,
@@ -1022,7 +1032,13 @@ window.BOOTHS = [
       "標本代工製作（簡介）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/beetle0321/p/Ctcz_WWyG1v/"
+    "source": "https://www.instagram.com/beetle0321/p/Ctcz_WWyG1v/",
+    "detail": {
+      "info": [
+        "IG 未找到 2026 本次活動貼文"
+      ],
+      "noEventPost": true
+    }
   },
   {
     "no": 13,
@@ -1111,7 +1127,13 @@ window.BOOTHS = [
       "鼠婦周邊/活體消費折抵卷（刮刮樂獎品）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/gua_isopods/p/DToYRcLEhkq/"
+    "source": "https://www.instagram.com/gua_isopods/p/DToYRcLEhkq/",
+    "detail": {
+      "info": [
+        "IG 未找到 2026 本次活動貼文"
+      ],
+      "noEventPost": true
+    }
   },
   {
     "no": 15,
@@ -1147,7 +1169,27 @@ window.BOOTHS = [
       "昆蟲果凍/甲蟲食材"
     ],
     "listFound": false,
-    "source": "https://www.facebook.com/beetles242/posts/pfbid02JgnoMrHFiDPm7C7oyiu3tp7N5rZKaDJLVCGvQaDqBN5YViXKTeEBKeZmijBix1Uql"
+    "source": "https://www.facebook.com/beetles242/posts/pfbid02JgnoMrHFiDPm7C7oyiu3tp7N5rZKaDJLVCGvQaDqBN5YViXKTeEBKeZmijBix1Uql",
+    "detail": {
+      "source": "https://www.facebook.com/beetles242",
+      "sourceLabel": "FB 喜蟲天降 活動 reel",
+      "info": [
+        "caption：「10/17～18 松菸 有蠶寶寶」"
+      ],
+      "groups": [
+        {
+          "category": "活體",
+          "items": [
+            {
+              "name": "蠶寶寶",
+              "size": "",
+              "spec": "",
+              "price": "未標價"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "no": 16,
@@ -1228,7 +1270,14 @@ window.BOOTHS = [
       "蟑螂"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/smile.isopoto/p/Dd8B0ngCWhe/"
+    "source": "https://www.instagram.com/smile.isopoto/p/Dd8B0ngCWhe/",
+    "detail": {
+      "source": "https://www.instagram.com/smile.isopoto/p/Dd8B0ngCWhe/",
+      "sourceLabel": "IG @smile.isopoto 活動海報",
+      "info": [
+        "已確認參展，貼文未列品項"
+      ]
+    }
   },
   {
     "no": 18,
@@ -1366,7 +1415,13 @@ window.BOOTHS = [
       "甲蟲仿真模型（不可動/動態版，非活體）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/beetle69.69/p/DVY0k_lj_j3/"
+    "source": "https://www.instagram.com/beetle69.69/p/DVY0k_lj_j3/",
+    "detail": {
+      "info": [
+        "IG 未找到 2026 本次活動貼文"
+      ],
+      "noEventPost": true
+    }
   },
   {
     "no": 20,
@@ -1443,7 +1498,13 @@ window.BOOTHS = [
       "菊石圖鑑海報（馬島白堊紀菊石海報，熱烈販售中，A2）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/alex.fossils/p/DXVU3TJE_wt/"
+    "source": "https://www.instagram.com/alex.fossils/p/DXVU3TJE_wt/",
+    "detail": {
+      "info": [
+        "IG 未找到 2026 本次活動貼文"
+      ],
+      "noEventPost": true
+    }
   },
   {
     "no": 21,
@@ -1475,7 +1536,14 @@ window.BOOTHS = [
       "生態工作假期、珊瑚礁體檢等推廣"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/tnf_npo/p/Dd-5fSEjagg/"
+    "source": "https://www.instagram.com/tnf_npo/p/Dd-5fSEjagg/",
+    "detail": {
+      "source": "https://www.instagram.com/tnf_npo/p/Dd-5fSEjagg/",
+      "sourceLabel": "IG @tnf_npo 活動彙整",
+      "info": [
+        "已確認參展，貼文未列品項"
+      ]
+    }
   },
   {
     "no": 22,
@@ -1513,7 +1581,13 @@ window.BOOTHS = [
       "客製玻璃罩/畫框/擴香/卡片"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/abitbutter/p/DQdqq5Zksfz/"
+    "source": "https://www.instagram.com/abitbutter/p/DQdqq5Zksfz/",
+    "detail": {
+      "info": [
+        "IG 未找到 2026 本次活動貼文"
+      ],
+      "noEventPost": true
+    }
   },
   {
     "no": 23,
@@ -1604,7 +1678,13 @@ window.BOOTHS = [
       "百元扭蛋機/十秒挑戰（過往展場，非本次）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/beetle_1one/p/DSohhWnkhaP/"
+    "source": "https://www.instagram.com/beetle_1one/p/DSohhWnkhaP/",
+    "detail": {
+      "info": [
+        "IG 未找到 2026 本次活動貼文"
+      ],
+      "noEventPost": true
+    }
   },
   {
     "no": 25,
@@ -1708,7 +1788,13 @@ window.BOOTHS = [
       "抽獎活動舊貼文（非本次）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/beetle_discovery/p/DUxq_5rD6nO/"
+    "source": "https://www.instagram.com/beetle_discovery/p/DUxq_5rD6nO/",
+    "detail": {
+      "info": [
+        "IG 未找到 2026 本次活動貼文"
+      ],
+      "noEventPost": true
+    }
   },
   {
     "no": 27,
@@ -1736,7 +1822,14 @@ window.BOOTHS = [
       "昆蟲學名種子標籤紙（隨飾品附贈）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/tummy_bird/p/Da7fm9yjCtW/"
+    "source": "https://www.instagram.com/tummy_bird/p/Da7fm9yjCtW/",
+    "detail": {
+      "source": "https://www.instagram.com/tummy_bird/p/Da7fm9yjCtW/",
+      "sourceLabel": "IG @tummy_bird 行程",
+      "info": [
+        "已確認參展，貼文未列品項"
+      ]
+    }
   },
   {
     "no": 28,
@@ -1769,7 +1862,14 @@ window.BOOTHS = [
       "水晶/種子 相關礦石小物"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/csu_1122/p/DeYxEwIyyFb/"
+    "source": "https://www.instagram.com/csu_1122/p/DeYxEwIyyFb/",
+    "detail": {
+      "source": "https://www.instagram.com/csu_1122/p/DeYxEwIyyFb/",
+      "sourceLabel": "IG @csu_1122 活動貼文",
+      "info": [
+        "已確認參展，貼文未列品項"
+      ]
+    }
   },
   {
     "no": 29,
@@ -1810,7 +1910,86 @@ window.BOOTHS = [
       "黑牛木屑/飼育耗材"
     ],
     "listFound": true,
-    "source": "https://www.facebook.com/IPA168/posts/pfbid03yRXbRgUs55bWiK5wr2Rw7gxhvVPbugFDLoAZDUvgJjwKRX2k37ErxoPaEVceD9Vl"
+    "source": "https://www.facebook.com/IPA168/posts/pfbid03yRXbRgUs55bWiK5wr2Rw7gxhvVPbugFDLoAZDUvgJjwKRX2k37ErxoPaEVceD9Vl",
+    "detail": {
+      "source": "https://www.facebook.com/IPA168/posts/pfbid0qZHqup4RmA1321C1sAWsguawYtBMQuKe7W56KrsSGF5T9y67NMCkizHWNr5c7ADEl",
+      "sourceLabel": "FB 蟲植寓所 活動貼文（含標本圖）",
+      "info": [
+        "貼文寫 29 號位（主辦調整）",
+        "⚠ 攤位編號有兩版官方對照表：舊版 29 莫莫爬寵／36 Ookuwa Taiwan／38 蟲植寓所；更新版（蟲植寓所貼文標示主辦調整）29 蟲植寓所／36 莫莫爬寵／38 Ookuwa Taiwan。本站採更新版，但 Ookuwa 10/13 貼文地圖寫「第36、37桌」，請以現場為準"
+      ],
+      "groups": [
+        {
+          "category": "販售：幼蟲",
+          "items": [
+            {
+              "name": "陳氏深山 Lucanus cheni（中國西藏墨脫汗密產）",
+              "size": "",
+              "spec": "WF2 1–2齡，500cc 黑牛木屑盒",
+              "price": "未標價",
+              "qty": "每條血統約 100 隻，共約 500 隻"
+            }
+          ]
+        },
+        {
+          "category": "展示：種公標本（非販售）",
+          "items": [
+            {
+              "name": "A 野生 ♂",
+              "size": "74mm"
+            },
+            {
+              "name": "A1 ♂",
+              "size": "79mm"
+            },
+            {
+              "name": "A2 ♂",
+              "size": "79mm"
+            },
+            {
+              "name": "A3 ♂",
+              "size": "83mm"
+            },
+            {
+              "name": "A4 ♂",
+              "size": "82mm"
+            },
+            {
+              "name": "A5 ♂",
+              "size": "75mm"
+            },
+            {
+              "name": "A6 ♂",
+              "size": "76mm"
+            },
+            {
+              "name": "A7 ♂",
+              "size": "77mm"
+            },
+            {
+              "name": "B 野生 ♂",
+              "size": "73mm"
+            },
+            {
+              "name": "B1 ♂",
+              "size": "81mm"
+            },
+            {
+              "name": "B3 ♂",
+              "size": "79mm"
+            },
+            {
+              "name": "B4 ♂",
+              "size": "77mm"
+            },
+            {
+              "name": "B5 ♂",
+              "size": "77mm"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "no": 30,
@@ -2445,7 +2624,13 @@ window.BOOTHS = [
       "台灣爬蟲祭展品（8/14-16）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/sunmoonbeetle/p/DdJxQY5FMwf/"
+    "source": "https://www.instagram.com/sunmoonbeetle/p/DdJxQY5FMwf/",
+    "detail": {
+      "info": [
+        "IG 未找到 2026 本次活動貼文"
+      ],
+      "noEventPost": true
+    }
   },
   {
     "no": 36,
@@ -2491,7 +2676,14 @@ window.BOOTHS = [
     "listFound": false,
     "source": "https://www.instagram.com/momo_reptiles/p/DeS8vg_TyNR/",
     "notes": [],
-    "excludedSource": "IG DeS8vg_TyNR 為台南「爬玩府城」活動，不採用"
+    "excludedSource": "IG DeS8vg_TyNR 為台南「爬玩府城」活動，不採用",
+    "detail": {
+      "sourceLabel": null,
+      "info": [
+        "⚠ 攤位編號有兩版官方對照表：舊版 29 莫莫爬寵／36 Ookuwa Taiwan／38 蟲植寓所；更新版（蟲植寓所貼文標示主辦調整）29 蟲植寓所／36 莫莫爬寵／38 Ookuwa Taiwan。本站採更新版，但 Ookuwa 10/13 貼文地圖寫「第36、37桌」，請以現場為準",
+        "IG @momo_reptiles DeS8vg_TyNR 為台南「爬玩府城」活動，不採用"
+      ]
+    }
   },
   {
     "no": 37,
@@ -2536,7 +2728,14 @@ window.BOOTHS = [
     ],
     "listFound": false,
     "source": "https://www.facebook.com/ookuwataiwan/posts/pfbid02ap4kGGC4RpWuCgcr3j9nq3AUnVMNqPrACw2EkAosXxADusJY4E2Rkh2cu4u9sTjUl",
-    "speciesSource": "event-mention"
+    "speciesSource": "event-mention",
+    "detail": {
+      "source": "https://www.facebook.com/ookuwataiwan/",
+      "sourceLabel": "FB Ookuwa Taiwan 10/13 活動貼文",
+      "info": [
+        "與 Ookuwa Taiwan 同區，品項見 38 號"
+      ]
+    }
   },
   {
     "no": 38,
@@ -2586,7 +2785,39 @@ window.BOOTHS = [
     ],
     "listFound": false,
     "source": "https://www.facebook.com/ookuwataiwan/posts/pfbid02ap4kGGC4RpWuCgcr3j9nq3AUnVMNqPrACw2EkAosXxADusJY4E2Rkh2cu4u9sTjUl",
-    "speciesSource": "event-mention"
+    "speciesSource": "event-mention",
+    "detail": {
+      "source": "https://www.facebook.com/ookuwataiwan/",
+      "sourceLabel": "FB Ookuwa Taiwan 10/13 活動貼文（無固定連結）",
+      "info": [
+        "⚠ 攤位編號有兩版官方對照表：舊版 29 莫莫爬寵／36 Ookuwa Taiwan／38 蟲植寓所；更新版（蟲植寓所貼文標示主辦調整）29 蟲植寓所／36 莫莫爬寵／38 Ookuwa Taiwan。本站採更新版，但 Ookuwa 10/13 貼文地圖寫「第36、37桌」，請以現場為準",
+        "與 AMID Dorcus 同區（地圖標第36、37桌）"
+      ],
+      "groups": [
+        {
+          "category": "活體",
+          "items": [
+            {
+              "name": "久留米日大",
+              "size": "",
+              "spec": "數量多",
+              "price": "未標價"
+            },
+            {
+              "name": "優質單母",
+              "size": "50mm 以上"
+            },
+            {
+              "name": "西方長戟 (?)"
+            }
+          ]
+        }
+      ],
+      "promos": [
+        "展場限時優惠價",
+        "今年買對蟲者可享加購價"
+      ]
+    }
   },
   {
     "no": 39,
@@ -2629,7 +2860,27 @@ window.BOOTHS = [
       "活體餌料批發（7-11 myship 賣場）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/dubia_fnc/p/DbLk-o4D7jh/"
+    "source": "https://www.instagram.com/dubia_fnc/p/DbLk-o4D7jh/",
+    "detail": {
+      "source": "https://www.instagram.com/dubia_fnc/",
+      "sourceLabel": "IG @dubia_fnc 近期貼文",
+      "info": [
+        "無活動貼文"
+      ],
+      "groups": [
+        {
+          "category": "近期販售（非本次帶展清單）",
+          "items": [
+            {
+              "name": "黃色迷你麵包蟲（九龍蟲）"
+            },
+            {
+              "name": "黃金杜比亞"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "no": 40,
@@ -2677,7 +2928,24 @@ window.BOOTHS = [
       "蝦皮賣場：樹皮/蝴蝶標本"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/wsbz_shop/p/DUZ5WGfEe7_/"
+    "source": "https://www.instagram.com/wsbz_shop/p/DUZ5WGfEe7_/",
+    "detail": {
+      "source": "https://www.instagram.com/wsbz_shop/",
+      "sourceLabel": "IG @wsbz_shop 近期貼文",
+      "info": [
+        "無活動貼文"
+      ],
+      "groups": [
+        {
+          "category": "近期販售（非本次帶展清單）",
+          "items": [
+            {
+              "name": "委內瑞拉巨人粉紅腳"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "no": 41,
@@ -2768,7 +3036,14 @@ window.BOOTHS = [
       "爬蟲飾品"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/girl_and_reptile/p/DZnHSD7hmPR/"
+    "source": "https://www.instagram.com/girl_and_reptile/p/DZnHSD7hmPR/",
+    "detail": {
+      "source": "https://www.instagram.com/girl_and_reptile/",
+      "sourceLabel": "IG @girl_and_reptile 簡介",
+      "info": [
+        "簡介確認 10/17–18 參展，未列品項"
+      ]
+    }
   },
   {
     "no": 43,
@@ -2890,7 +3165,32 @@ window.BOOTHS = [
     ],
     "listFound": false,
     "source": "https://www.facebook.com/KinlongBeetles/posts/pfbid02tdrBKx9nDKCGs9KRP96WYKNjiEnCq1Bs3Ls27ASPovAMxqFZYwPk4FREEbB8yygrl",
-    "speciesSource": "event-mention"
+    "speciesSource": "event-mention",
+    "detail": {
+      "source": "https://www.facebook.com/KinlongBeetles",
+      "sourceLabel": "FB 虫合 MEET INSECTS 活動海報",
+      "info": [
+        "價格未列"
+      ],
+      "promos": [
+        "引福機抽抽樂"
+      ],
+      "tiers": [
+        {
+          "title": "抽抽樂大獎（二選一）",
+          "items": [
+            {
+              "name": "赫克力士長戟大兜蟲（河野血統）",
+              "size": "160mm"
+            },
+            {
+              "name": "海神大兜蟲",
+              "size": "128mm"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "no": 45,
@@ -2942,7 +3242,42 @@ window.BOOTHS = [
       "乾貨（昆蟲乾燥/飼育乾貨）"
     ],
     "listFound": false,
-    "source": "https://www.facebook.com/insect308/posts/pfbid0kUKCxQXAEYg8E7rZ3fok44vgQZkg1nLAWZVGHbVB1fqHMrk3U9TeNQ9onWJEMEvRl"
+    "source": "https://www.facebook.com/insect308/posts/pfbid0kUKCxQXAEYg8E7rZ3fok44vgQZkg1nLAWZVGHbVB1fqHMrk3U9TeNQ9onWJEMEvRl",
+    "detail": {
+      "source": "https://www.facebook.com/insect308/posts/pfbid0aXo38XGuNTa88ai3yyt2g2UcBBCAiF9PUrNggCE7gEAvssgiCTMyhP3HKjJppeUAl",
+      "sourceLabel": "FB 南投甲蟲館 活動貼文",
+      "info": [
+        "粉專另註：0917 起暫停販售所有標本 (?)"
+      ],
+      "groups": [
+        {
+          "category": "昆蟲標本與乾貨",
+          "items": [
+            {
+              "name": "甲蟲"
+            },
+            {
+              "name": "蝴蝶"
+            },
+            {
+              "name": "螳螂"
+            },
+            {
+              "name": "蟬"
+            },
+            {
+              "name": "蜻蜓"
+            },
+            {
+              "name": "蜂類"
+            },
+            {
+              "name": "水生昆蟲"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "no": 47,
@@ -2986,7 +3321,35 @@ window.BOOTHS = [
     ],
     "listFound": false,
     "source": "https://www.instagram.com/creatures_oasis/reel/DePK73-BSdx/",
-    "speciesSource": "event-mention"
+    "speciesSource": "event-mention",
+    "detail": {
+      "source": "https://www.instagram.com/creatures_oasis/reel/DePK73-BSdx/",
+      "sourceLabel": "IG @creatures_oasis 活動 reel",
+      "info": [
+        "「台北昆蟲同樂會見」"
+      ],
+      "groups": [
+        {
+          "category": "龍蝨",
+          "items": [
+            {
+              "name": "太平洋麗龍蝨",
+              "size": "",
+              "spec": "少量"
+            },
+            {
+              "name": "毛足大龍蝨"
+            },
+            {
+              "name": "點刻三線大龍蝨"
+            },
+            {
+              "name": "紅邊大龍蝨"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "no": 48,
@@ -3135,7 +3498,26 @@ window.BOOTHS = [
       "甲蟲/爬蟲標本"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/reptile_hall/p/Ddi68fWktQ_/"
+    "source": "https://www.instagram.com/reptile_hall/p/Ddi68fWktQ_/",
+    "detail": {
+      "source": "https://www.instagram.com/reptile_hall/",
+      "sourceLabel": "IG @reptile_hall 近期貼文",
+      "info": [
+        "無活動貼文"
+      ],
+      "groups": [
+        {
+          "category": "近期販售（非本次帶展清單）",
+          "items": [
+            {
+              "name": "德勒塞鬼艷",
+              "size": "",
+              "spec": "釋出3對"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "no": 51,
@@ -3242,7 +3624,14 @@ window.BOOTHS = [
       "其他觀葉植物（日光萊姆、黃金白木蘇花等）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/carnivo.r.us/p/DegUjjyD9AH/"
+    "source": "https://www.instagram.com/carnivo.r.us/p/DegUjjyD9AH/",
+    "detail": {
+      "source": "https://www.instagram.com/carnivo.r.us/p/DegUjjyD9AH/",
+      "sourceLabel": "IG @carnivo.r.us 活動貼文（8張）",
+      "info": [
+        "食蟲植物店；已確認參展，貼文未列品項"
+      ]
+    }
   },
   {
     "no": 55,
@@ -3292,7 +3681,13 @@ window.BOOTHS = [
       "甲蟲飼育分享（DHH 繁殖日記）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/kh1_beetles/p/DU8Yk9YiaTu/"
+    "source": "https://www.instagram.com/kh1_beetles/p/DU8Yk9YiaTu/",
+    "detail": {
+      "info": [
+        "IG 未找到 2026 本次活動貼文"
+      ],
+      "noEventPost": true
+    }
   },
   {
     "no": 56,
@@ -3330,7 +3725,14 @@ window.BOOTHS = [
       "飼養紀錄/甲蟲飼育"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/t.h.y.tinyhouse/p/Dd6myhTk64p/"
+    "source": "https://www.instagram.com/t.h.y.tinyhouse/p/Dd6myhTk64p/",
+    "detail": {
+      "source": "https://www.instagram.com/t.h.y.tinyhouse/p/Dd6myhTk64p/",
+      "sourceLabel": "IG @t.h.y.tinyhouse 活動貼文",
+      "info": [
+        "貼文確認 56 桌；未列品項"
+      ]
+    }
   },
   {
     "no": 57,
@@ -3362,7 +3764,13 @@ window.BOOTHS = [
       "2026文具展 C347 鳥島樂園（新品與滿額活動）"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/m2005ifuture/p/DaUgZgtkWM-/"
+    "source": "https://www.instagram.com/m2005ifuture/p/DaUgZgtkWM-/",
+    "detail": {
+      "info": [
+        "IG 未找到 2026 本次活動貼文"
+      ],
+      "noEventPost": true
+    }
   },
   {
     "no": 58,
@@ -3405,6 +3813,24 @@ window.BOOTHS = [
       "爬蟲相關書店品項"
     ],
     "listFound": false,
-    "source": "https://www.instagram.com/kamavananasia/reel/Deb9LePKYfH/"
+    "source": "https://www.instagram.com/kamavananasia/reel/Deb9LePKYfH/",
+    "detail": {
+      "source": "https://www.instagram.com/kamavananasia/reel/Deb9LePKYfH/",
+      "sourceLabel": "IG @kamavananasia 活動 reel",
+      "info": [],
+      "groups": [
+        {
+          "category": "書籍",
+          "items": [
+            {
+              "name": "《魅惑のクワガタ》鍬形蟲的魅力（135種＋12亞種）",
+              "size": "",
+              "spec": "攤位58現場有售",
+              "price": "未標價"
+            }
+          ]
+        }
+      ]
+    }
   }
 ];

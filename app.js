@@ -129,7 +129,7 @@ function detailPanel(b) {
   const hasPrice = items => items.some(i => i.price);
   const row = (it, p) => `<tr><td>${unc(it.name)}</td><td>${unc(it.size || it.qty || "—")}</td><td>${unc(it.spec)}</td>${p ? `<td>${unc(it.price)}</td>` : ""}</tr>`;
   const table = (t, items, h, cols) => { const p = hasPrice(items); const c = cols || ["物種", h, "規格"]; return `<h5>${e(t)}</h5><table class="dtl"><thead><tr>${c.map(x => `<th>${e(x)}</th>`).join("")}${p ? "<th>價格</th>" : ""}</tr></thead><tbody>${items.map(i => row(i, p)).join("")}</tbody></table>`; };
-  return `<h4>${d.groups || d.tiers ? "本次帶展清單" : "本次活動資訊"}</h4>` +
+  return `<h4>${(d.groups || d.tiers) ? ((d.groups || []).length && !d.tiers && d.groups.every(g => g.category.startsWith("近期")) ? "近期販售（非本次帶展清單）" : "本次帶展清單") : "本次活動資訊"}</h4>` +
     (d.info ? `<ul class="dinfo">${d.info.map(x => `<li>${unc(x)}</li>`).join("")}</ul>` : "") +
     (d.promos ? `<h5>優惠／活動</h5><ul class="dinfo">${d.promos.map(x => `<li>${unc(x)}</li>`).join("")}</ul>` : "") +
     (d.groups || []).map(g => table(g.category, g.items, g.items.some(i => i.qty) ? "數量" : "最大尺寸")).join("") +
