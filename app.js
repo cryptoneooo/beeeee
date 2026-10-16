@@ -126,6 +126,7 @@ function renderPanel(b) {
   const tags = cats(b).map(c => `<span class="tag ${c}">${CAT_LABEL[c]}</span>`);
   if (b.lottery === true) tags.push(`<span class="tag lottery-yes">🎰 抽抽樂</span>`);
   else if (b.lottery === null) tags.push(`<span class="tag lottery-unknown">抽抽樂未確認</span>`);
+  if (b.fromEventPost) tags.push(`<span class="tag event-post">本次活動貼文</span>`);
   if (!b.verified) tags.push(`<span class="tag guess">依名稱推測</span>`);
 
   const links = (b.links || []).map(l =>

@@ -180,3 +180,4 @@ main {
   .panel { position: static; }
   .top { align-items: flex-start; }
 }
+.tag.event-post{background:#e8f4ff;color:#1565c0}
